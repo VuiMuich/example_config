@@ -1,12 +1,12 @@
----@type ChadrcConfig
+-- @type ChadrcConfig
 local M = {}
 
 -- Path to overriding theme and highlights files
 local highlights = require "custom.highlights"
 
 M.ui = {
-  theme = "onedark",
-  theme_toggle = { "onedark", "one_light" },
+  theme = "serika",
+  theme_toggle = { "serika", "serika_light" },
 
   hl_override = highlights.override,
   hl_add = highlights.add,

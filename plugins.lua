@@ -58,6 +58,15 @@ local plugins = {
   --   "folke/which-key.nvim",
   --   enabled = true,
   -- },
+
+  -- VuiMuich installed plugins
+  {
+    "sindrets/diffview.nvim",
+    enabled = true,
+    config = function ()
+    	    require("nvim-lua/plenary.nvim").setup()
+    end
+  },
 }
 
 return plugins
